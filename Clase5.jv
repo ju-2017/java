@@ -1,0 +1,49 @@
+# java
+
+public stactic void main (String [] args){//INICIO
+
+for ( int i = 0; i<11; i++){       //ESTO GENERA UNA TABLA DE MULTIPLICACION
+System.out.println("7 x" + i+ " = " +(i*7));
+
+}
+
+
+//FIN}
+
+public stactic void main (String [] args){
+
+Scanner sc = new Scanner (System.in);
+System.out.print("\nCuantos estudiantes: ");
+int numeroEstudiante = Integer.parseInt(sc.nextLine());
+
+String reporte = "";
+
+for (int i =0; i< numeroEstudiante; i++){
+
+System.out.print("\nNombre");
+String nombre = sc.nextLine();
+System.out.print("\nNota1");
+int valorUno = Integer.parseInt (sc.nextLine());
+System.out.print("\nNota2");
+int valorDos = Integer.parseInt (sc.nextLine());
+int prom = (valorUno + valorDos) / 2;
+
+System.out.print("\n*** Informe***" + "\nNombre estudiante: " + nombre + "\nNota 1" + valorUno + "\nNota 2" + valorDos + "\nPromedio: " + prom);
+
+if (prom > 70){
+System.out.println("\nGano");
+
+
+} else{
+
+System.out.println ("\nPerdio");
+
+}
+
+reporte = reporte+ "Nombre" +nombre+ "-definitiva: " + prom + "\n"; //Acomulador
+
+}
+System.out.println(reporte)
+
+}
+
