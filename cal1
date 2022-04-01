@@ -1,0 +1,11 @@
+# java
+
+/*Scanner view = new Scanner (System.in);
+        System.out.print("Ingrese el número 1: ");
+        int numero3 = view.nextInt();
+        
+        System.out.print("Ingrese el numero 2: ");
+        int numero4 = view.nextInt();
+        
+        int total = numero3 * numero4;
+        JOptionPane.showMessageDialog(null, "El resultado de la multplicación es: " + total);*/
