@@ -1,0 +1,41 @@
+# java
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body>
+        <h1>Introduccion a Java</h1>
+        <%! double media, num1=2.2, num2=4.4, num3=6.0;
+        int b=50, c=20;
+        byte d=10, e=8;
+        short f=3, g=4;
+        %>
+        <div> 
+            <h3>Operaciones Aritmeticas Basicas</h3>
+            
+            Suma: <%=b+c%><br><hr>
+            Resta: <%=d-e%><br><hr>
+            Multiplicacion: <%=f*g%><br><hr>
+            Division: <%=b/d%><br><hr>
+            Promedio: <%=(num1+num2+num3)/3%><br><hr>
+        
+        </div>
+            
+            
+            <br>
+            
+            <div>
+                
+                <%! private int contador=0;%>
+                Numero de accesos a la pagina: <%=++contador%><hr>
+            </div>
+            
+            
+            
+        
+    </body>
+</html>
